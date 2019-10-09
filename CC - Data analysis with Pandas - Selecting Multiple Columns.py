@@ -13,5 +13,6 @@ df = pd.DataFrame([
 )
 
 clinic_north_south = df[['clinic_north', 'clinic_south']]
+print('clinic_north_south data type:')
 print(type(clinic_north_south))
 print(clinic_north_south)
